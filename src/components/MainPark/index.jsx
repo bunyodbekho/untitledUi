@@ -49,7 +49,7 @@ export default function MainPark() {
         </VStack>
 
         <HStack spacing="25px" flex="1">
-          <Image src="src/assets/images/main/mainchart.svg" />
+          <Image src="./assets/images/main/mainchart.svg" />
 
           <UnorderedList
             fontSize="16px"

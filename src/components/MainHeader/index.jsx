@@ -35,7 +35,7 @@ export default function MainHeader({ onAboutPage }) {
 
       <Image
         flex="1"
-        src="src\assets\images\main\mainheader.png"
+        src="./assets/images/main/mainheader.png"
         alt="mainheader.png"
         h="400px"
       />

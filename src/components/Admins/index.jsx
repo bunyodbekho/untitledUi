@@ -3,7 +3,7 @@ import { VStack, Heading, Text, Image, Grid, GridItem } from "@chakra-ui/react";
 const people = [
   {
     id: "1",
-    src: "src/assets/images/people/person_1.png",
+    src: "./assets/images/people/person_1.png",
     name: "Amélie Laurent",
     position: "Founder & CEO",
     description:
@@ -12,7 +12,7 @@ const people = [
   },
   {
     id: "2",
-    src: "src/assets/images/people/person_2.png",
+    src: "./assets/images/people/person_2.png",
     name: "Nikolas Gibbons",
     position: "Engineering Manager",
     description: "Lead engineering teams at Figma, Pitch, and Protocol Labs.",
@@ -20,7 +20,7 @@ const people = [
   },
   {
     id: "3",
-    src: "src/assets/images/people/person_3.png",
+    src: "./assets/images/people/person_3.png",
     name: "Sienna Hewitt",
     position: "Product Manager",
     description: "Former PM for Linear, Lambda School, and On Deck.",
@@ -28,7 +28,7 @@ const people = [
   },
   {
     id: "4",
-    src: "src/assets/images/people/person_4.png",
+    src: "./assets/images/people/person_4.png",
     name: "Lily-Rose Chedjou",
     position: "Frontend Developer",
     description: "Former frontend dev for Linear, Coinbase, and Postscript.",
@@ -36,7 +36,7 @@ const people = [
   },
   {
     id: "5",
-    src: "src/assets/images/people/person_5.png",
+    src: "./assets/images/people/person_5.png",
     name: "Zahra Christensen",
     position: "Backend Developer",
     description: "Lead backend dev at Clearbit. Former Clearbit and Loom.",
@@ -44,7 +44,7 @@ const people = [
   },
   {
     id: "6",
-    src: "src/assets/images/people/person_6.png",
+    src: "./assets/images/people/person_6.png",
     name: "Caitlyn King",
     position: "Product Designer",
     description:
@@ -53,7 +53,7 @@ const people = [
   },
   {
     id: "7",
-    src: "src/assets/images/people/person_7.png",
+    src: "./assets/images/people/person_7.png",
     name: "Zaid Schwartz",
     position: "UX Researcher",
     description:
@@ -62,7 +62,7 @@ const people = [
   },
   {
     id: "8",
-    src: "src/assets/images/people/person_8.png",
+    src: "./assets/images/people/person_8.png",
     name: "Marco Kelly",
     position: "Customer Success",
     description: "Lead CX at Wealthsimple. Former PagerDuty and Sqreen.",

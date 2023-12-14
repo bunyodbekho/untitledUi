@@ -11,17 +11,17 @@ import {
 
 const cardData = [
   {
-    image: "src/assets/images/main/mainnews/news_1.png",
+    image: "./assets/images/main/mainnews/news_1.png",
     title: "Проект на стадии завершения",
     txt: "How do you create compelling presentations that wow your colleagues and impress your managers?",
   },
   {
-    image: "src/assets/images/main/mainnews/news_2.png",
+    image: "./assets/images/main/mainnews/news_2.png",
     title: "На МОФ-3 установлен рекорд по заливке бетона",
     txt: "Linear helps streamline software projects, sprints, tasks, and bug tracking. Here’s how to get started.",
   },
   {
-    image: "src/assets/images/main/mainnews/news_3.png",
+    image: "./assets/images/main/mainnews/news_3.png",
     title: "СХК: Строительство идет полным ходом",
     txt: "The rise of RESTful APIs has been met by a rise in tools for creating, testing, and managing them.",
   },
@@ -66,7 +66,7 @@ export default function MainNews() {
 
               <Button variant="ghost" color="#1CA350" padding="0">
                 Смотреть
-                <Image src="src\assets\images\main\arrow-up-right.svg" />
+                <Image src="./assets/images/main/arrow-up-right.svg" />
               </Button>
             </VStack>
           </GridItem>

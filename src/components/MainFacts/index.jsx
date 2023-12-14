@@ -50,7 +50,7 @@ export default function MainFacts() {
           ))}
         </Grid>
 
-        <Image src="src\assets\images\main\mainfacts.png" flex="1" />
+        <Image src="./assets/images/main/mainfacts.png" flex="1" />
       </HStack>
     </VStack>
   );

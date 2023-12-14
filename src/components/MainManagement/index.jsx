@@ -1,9 +1,9 @@
 import { VStack, HStack, Heading, Button, Image } from "@chakra-ui/react";
 
 const images = [
-  "src/assets/images/main/mainmanagement/person_2.png",
-  "src/assets/images/main/mainmanagement/person_1.png",
-  "src/assets/images/main/mainmanagement/person_3.png",
+  "./assets/images/main/mainmanagement/person_2.png",
+  "./assets/images/main/mainmanagement/person_1.png",
+  "./assets/images/main/mainmanagement/person_3.png",
 ];
 
 export default function MainManagement() {
@@ -27,14 +27,14 @@ export default function MainManagement() {
 
       <HStack justifyContent="flex-start" spacing="20px" w="100%">
         <Image
-          src="src\assets\images\main\arrows\arrow-left.svg"
+          src="./assets/images/main/arrows/arrow-left.svg"
           padding="20px"
           border="1px solid gray"
           borderRadius="full"
           cursor="pointer"
         />
         <Image
-          src="src\assets\images\main\arrows\arrow-right.svg"
+          src="./assets/images/main/arrows/arrow-right.svg"
           padding="20px"
           border="1px solid gray"
           borderRadius="full"

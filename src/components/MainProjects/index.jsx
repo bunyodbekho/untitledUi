@@ -37,7 +37,7 @@ export default function MainProjects() {
             border="1px solid #EAECF0"
           >
             <HStack spacing="25px">
-              <Image src="src\assets\images\main\mainprojects.png" />
+              <Image src="./assets/images/main/mainprojects.png" />
 
               <VStack alignItems="flex-start">
                 <Heading fontSize="18px" fontWeight="600" lineHeight="28px">
@@ -45,7 +45,7 @@ export default function MainProjects() {
                 </Heading>
 
                 <Button variant="ghost" color="#1CA350" padding="0">
-                  Смотреть <Image src="src\assets\images\main\Eye.svg" />
+                  Смотреть <Image src="./assets/images/main/Eye.svg" />
                 </Button>
               </VStack>
             </HStack>

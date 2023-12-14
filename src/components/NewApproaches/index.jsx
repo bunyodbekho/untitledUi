@@ -5,7 +5,7 @@ export default function NewApproaches() {
     <HStack padding="100px 7%" spacing="50px" h="800px" bg="#F9FAFB">
       <Image
         flex="1"
-        src="src\assets\images\main\mainnewapproach.png"
+        src="./assets/images/main/mainnewapproach.png"
         alt="mainnewapproach.png"
         h="100%"
       />

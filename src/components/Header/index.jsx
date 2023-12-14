@@ -21,7 +21,7 @@ export default function Header({ onAboutPage }) {
       alignItems="center"
     >
       <Image
-        src="src\assets\images\logo\logo_purple.png"
+        src="./assets/images/logo/logo_purple.png"
         onClick={() => onAboutPage(false)}
         cursor="pointer"
       />

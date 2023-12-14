@@ -3,11 +3,7 @@ import { Text, Heading, Flex, VStack, Image } from "@chakra-ui/react";
 export default function Article() {
   return (
     <Flex bg="#F9FAFB" padding="100px 7%" gap="50px">
-      <VStack
-        alignItems="flex-start"
-        justifyContent="center"
-        spacing="20px"
-      >
+      <VStack alignItems="flex-start" justifyContent="center" spacing="20px">
         <Text fontSize="16px" fontWeight="600" color="#1CA350">
           Launch faster
         </Text>
@@ -28,7 +24,7 @@ export default function Article() {
         </Text>
       </VStack>
 
-      <Image src="src\assets\images\article_1.png" alt="article_1.png" />
+      <Image src="./assets/images/article_1.png" alt="article_1.png" />
     </Flex>
   );
 }

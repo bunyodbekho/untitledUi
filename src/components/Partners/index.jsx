@@ -1,16 +1,16 @@
 import { HStack, VStack, Heading, Image } from "@chakra-ui/react";
 
 const logos = [
-  "src/assets/images/partners/company_1.png",
-  `src/assets/images/partners/company_2.png`,
-  "src/assets/images/partners/company_3.png",
-  "src/assets/images/partners/company_4.png",
-  "src/assets/images/partners/company_5.png",
-  "src/assets/images/partners/company_6.png",
-  "src/assets/images/partners/company_7.png",
-  "src/assets/images/partners/company_8.png",
-  "src/assets/images/partners/company_9.png",
-  "src/assets/images/partners/company_10.png",
+  "./assets/images/partners/company_1.png",
+  `./assets/images/partners/company_2.png`,
+  "./assets/images/partners/company_3.png",
+  "./assets/images/partners/company_4.png",
+  "./assets/images/partners/company_5.png",
+  "./assets/images/partners/company_6.png",
+  "./assets/images/partners/company_7.png",
+  "./assets/images/partners/company_8.png",
+  "./assets/images/partners/company_9.png",
+  "./assets/images/partners/company_10.png",
 ];
 
 export default function Partners() {

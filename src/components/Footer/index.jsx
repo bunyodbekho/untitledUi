@@ -67,11 +67,11 @@ const linkData = [
 ];
 
 const icons = [
-  "src/assets/images/icons/icon_1.svg",
-  "src/assets/images/icons/icon_2.svg",
-  "src/assets/images/icons/icon_3.svg",
-  "src/assets/images/icons/icon_4.svg",
-  "src/assets/images/icons/icon_5.svg",
+  "./assets/images/icons/icon_1.svg",
+  "./assets/images/icons/icon_2.svg",
+  "./assets/images/icons/icon_3.svg",
+  "./assets/images/icons/icon_4.svg",
+  "./assets/images/icons/icon_5.svg",
 ];
 
 export default function Footer() {
