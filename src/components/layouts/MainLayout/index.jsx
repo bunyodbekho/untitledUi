@@ -12,7 +12,7 @@ import MainNews from "../../MainNews";
 export default function MainLayout({ onAboutPage }) {
   return (
     <>
-      <Header />
+      <Header onAboutPage={onAboutPage} />
       <MainHeader onAboutPage={onAboutPage} />
       <NewApproaches />
       <MainServices />

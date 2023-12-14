@@ -28,7 +28,13 @@ export default function Header({ onAboutPage }) {
 
       <HStack spacing="20px">
         {links.map((link, i) => (
-          <Button key={i} color={txtColor} variant="link" fontSize="14px">
+          <Button
+            onClick={() => onAboutPage(true)}
+            key={i}
+            color={txtColor}
+            variant="link"
+            fontSize="14px"
+          >
             {link}
           </Button>
         ))}
