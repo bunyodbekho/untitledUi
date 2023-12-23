@@ -24,7 +24,7 @@ export default function MainHeader({ onSetPage }) {
           Центральной Азии.
         </Text>
         <Button
-          onClick={() => onSetPage(true)}
+          onClick={() => onSetPage("/")}
           colorScheme="whatsapp"
           padding="25px 28px"
           fontSize="18px"
