@@ -1,18 +1,32 @@
 import { Flex, Button, HStack, VStack, Text, Image } from "@chakra-ui/react";
-import { phoneSVG } from "../../assets/svg";
+import { phoneSVG } from "../../../public/assets/svg";
 
 const txtColor = "#475467";
 
 const links = [
-  "Компания",
-  "Дятельность",
-  "Карьера",
-  "Карьера",
-  "Устойчивое развитие",
-  "Контакты",
+  {
+    title: "Компания",
+    linkTo: "/about",
+  },
+  {
+    title: "Дятельность",
+    linkTo: "/activity",
+  },
+  {
+    title: "Карьера",
+    linkTo: "/career",
+  },
+  {
+    title: "Устойчивое развитие",
+    linkTo: "/development",
+  },
+  {
+    title: "Контакты",
+    linkTo: "/contacts",
+  },
 ];
 
-export default function Header({ onAboutPage }) {
+export default function Header({ onSetPage }) {
   return (
     <Flex
       bg="#fff"
@@ -21,21 +35,21 @@ export default function Header({ onAboutPage }) {
       alignItems="center"
     >
       <Image
-        src="./assets/images/logo/logo_purple.png"
-        onClick={() => onAboutPage(false)}
+        src="src\assets\images\logo\logo_purple.png"
+        onClick={() => onSetPage("/")}
         cursor="pointer"
       />
 
       <HStack spacing="20px">
         {links.map((link, i) => (
           <Button
-            onClick={() => onAboutPage(true)}
             key={i}
+            onClick={() => onSetPage(link?.linkTo)}
             color={txtColor}
             variant="link"
             fontSize="14px"
           >
-            {link}
+            {link?.title}
           </Button>
         ))}
       </HStack>

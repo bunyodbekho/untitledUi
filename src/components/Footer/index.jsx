@@ -80,7 +80,7 @@ export default function Footer() {
       <VStack padding="100px 7%" alignItems="flex-start">
         <HStack alignItems="flex-start" spacing="60px">
           <VStack spacing="30px" alignItems="flex-start">
-            <Image src="./assets/images/logo/logo_green.png" />
+            <Image src="src\assets\images\logo\logo_green.png" />
             <Text color="#475467" fontSize="16px" fontWeight="400">
               Design amazing digital experiences that create more happy in the
               world.

@@ -9,11 +9,11 @@ import MainManagement from "../../MainManagement";
 import MainProjects from "../../MainProjects";
 import MainNews from "../../MainNews";
 
-export default function MainLayout({ onAboutPage }) {
+export default function MainLayout({ onSetPage }) {
   return (
     <>
-      <Header onAboutPage={onAboutPage} />
-      <MainHeader onAboutPage={onAboutPage} />
+      <Header onSetPage={onSetPage} />
+      <MainHeader onSetPage={onSetPage} />
       <NewApproaches />
       <MainServices />
       <MainFacts />

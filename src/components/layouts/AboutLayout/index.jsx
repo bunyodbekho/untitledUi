@@ -6,11 +6,11 @@ import Admins from "../../Admins";
 import Goals from "../../Goals";
 import Footer from "../../Footer";
 
-export default function AboutLayout({ onAboutPage }) {
+export default function AboutLayout({ onSetPage }) {
   return (
     <>
-      <Header onAboutPage={onAboutPage} />
-      <Main />
+      <Header onSetPage={onSetPage} />
+      <Main bgUrl="public/assets/images/background/about.png" />
       <Article />
       <Partners />
       <Admins />

@@ -1,20 +1,20 @@
 import { VStack, HStack, Heading, Text, Image } from "@chakra-ui/react";
 
 const iconData = [
-  { text: "Апстрим", src: "./assets/images/serviceicons/serviceicon_1.png" },
+  { text: "Апстрим", src: "assets/images/serviceicons/serviceicon_1.png" },
   {
     text: "Даунстрим",
-    src: "./assets/images/serviceicons/serviceicon_2.png",
+    src: "assets/images/serviceicons/serviceicon_2.png",
   },
   {
     text: "Инфраструктура",
-    src: "./assets/images/serviceicons/serviceicon_3.png",
+    src: "assets/images/serviceicons/serviceicon_3.png",
   },
   {
     text: "Энергетика",
-    src: "./assets/images/serviceicons/serviceicon_4.png",
+    src: "assets/images/serviceicons/serviceicon_4.png",
   },
-  { text: "Мидстрим", src: "./assets/images/serviceicons/serviceicon_5.png" },
+  { text: "Мидстрим", src: "assets/images/serviceicons/serviceicon_5.png" },
 ];
 
 export default function MainServices() {

@@ -1,6 +1,6 @@
 import { VStack, HStack, Heading, Text, Button, Image } from "@chakra-ui/react";
 
-export default function MainHeader({ onAboutPage }) {
+export default function MainHeader({ onSetPage }) {
   return (
     <HStack padding="100px 7%" spacing="25px">
       <VStack
@@ -24,7 +24,7 @@ export default function MainHeader({ onAboutPage }) {
           Центральной Азии.
         </Text>
         <Button
-          onClick={() => onAboutPage(true)}
+          onClick={() => onSetPage(true)}
           colorScheme="whatsapp"
           padding="25px 28px"
           fontSize="18px"
@@ -35,7 +35,7 @@ export default function MainHeader({ onAboutPage }) {
 
       <Image
         flex="1"
-        src="./assets/images/main/mainheader.png"
+        src="assets/images/main/mainheader.png"
         alt="mainheader.png"
         h="400px"
       />
