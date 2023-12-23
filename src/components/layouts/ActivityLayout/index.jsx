@@ -16,7 +16,7 @@ export default function ActivityLayout({ onSetPage }) {
       <Header onSetPage={onSetPage} />
       <Main
         onSetPage={onSetPage}
-        bgUrl="public/assets/images/background/activity.jpg"
+        bgUrl="./assets/images/background/activity.jpg"
       />
       <Goals />
       <Article />

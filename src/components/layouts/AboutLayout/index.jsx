@@ -10,7 +10,7 @@ export default function AboutLayout({ onSetPage }) {
   return (
     <>
       <Header onSetPage={onSetPage} />
-      <Main bgUrl="public/assets/images/background/about.png" />
+      <Main bgUrl="./assets/images/background/about.png" />
       <Article />
       <Partners />
       <Admins />

@@ -14,7 +14,7 @@ export default function DevelopmentLayout({ onSetPage }) {
       <Header onSetPage={onSetPage} />
       <Main
         onSetPage={onSetPage}
-        bgUrl="public/assets/images/background/development.jpg"
+        bgUrl="./assets/images/background/development.jpg"
       />
       <MainNews />
       <MainServices />

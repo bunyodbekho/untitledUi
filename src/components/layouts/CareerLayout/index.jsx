@@ -15,7 +15,7 @@ export default function CareerLayout({ onSetPage }) {
       <Header onSetPage={onSetPage} />
       <Main
         onSetPage={onSetPage}
-        bgUrl="public/assets/images/background/career.webp"
+        bgUrl="./assets/images/background/career.webp"
       />
       <Admins />
       <MainProjects />

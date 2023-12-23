@@ -14,7 +14,7 @@ export default function ContactsLayout({ onSetPage }) {
       <Header onSetPage={onSetPage} />
       <Main
         onSetPage={onSetPage}
-        bgUrl="public/assets/images/background/contacts.jpg"
+        bgUrl="./assets/images/background/contacts.jpg"
       />
       <Goals />
       <Article />
