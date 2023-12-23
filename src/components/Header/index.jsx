@@ -35,7 +35,7 @@ export default function Header({ onSetPage }) {
       alignItems="center"
     >
       <Image
-        src="src\assets\images\logo\logo_purple.png"
+        src="./assets/images/logo/logo_purple.png"
         onClick={() => onSetPage("/")}
         cursor="pointer"
       />
